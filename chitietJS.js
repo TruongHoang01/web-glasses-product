@@ -135,5 +135,16 @@ function start(){
     //imageZoom("img_01","#myresult");
     inputDescriptionComment();
     clickHeader();  
+    animationAddProduct();
+}
+function animationAddProduct(){
+    var btn = document.querySelector(".add-product");
+    btn.addEventListener('click',()=>{
+        var modal = document.querySelector(".modal");
+        modal.classList.add("appear");
+        setTimeout(()=>{
+            modal.classList.remove("appear");
+        },1000)
+    })
 }
 start();
