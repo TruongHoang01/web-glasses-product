@@ -137,6 +137,7 @@ function start(){
     clickHeader();  
     animationAddProduct();
 }
+// PHAN THEM
 function animationAddProduct(){
     var btn = document.querySelector(".add-product");
     btn.addEventListener('click',()=>{

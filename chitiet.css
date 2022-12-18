@@ -419,6 +419,9 @@ html{
         font-size: 14px;
     }
 }
+
+
+/* phan them */
 .modal {
     display: none; 
     position: fixed; 
@@ -445,3 +448,4 @@ html{
 .hidden{
     display: none!important;
 }
+/* phan them */
